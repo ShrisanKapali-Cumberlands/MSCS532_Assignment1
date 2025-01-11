@@ -17,3 +17,10 @@ def monotonically_decreasing_insertion_sort(array):
             array[j + 1] = array[j]
             j -= 1
         array[j + 1] = key
+
+
+# Examples arrays to be sorted
+array1 = [5, 10, 20, 40, 1, 0, 60, 50, 200]
+array2 = [7, 14, 5, 2, 3, 45, 20, 16, 65, 75, 500, 100]
+array3 = [1000, 2000, 1500, 999, 6000, 4500, 1750, 6000]
+array3 = [100000, 200000, 300000, 400000, 500000, 600000, 700000, 800000]
